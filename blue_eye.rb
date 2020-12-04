@@ -19,3 +19,6 @@ END_OF_MESSAGE
     smtp.send_message msg, opts[:from], to
   end
 end
+
+
+# maybe https://github.com/socketry/timers for the timer?
